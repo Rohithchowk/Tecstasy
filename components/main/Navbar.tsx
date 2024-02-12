@@ -10,35 +10,37 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
-            src="/NavLogo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
+         <Image
+  src="/tecstasy.png"
+  alt="logo"
+  width={50}
+  height={50}
+  className="cursor-pointer hover:animate-slowspin rounded-full"
+/>
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+
+          <span className="font-bold ml-[10px] hidden md:block text-gray-100">
+            TECSTASY
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
-              About me
+               TECSTASY
             </a>
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
             <a href="#projects" className="cursor-pointer">
-              Projects
+            Events
             </a>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+          
+          {/* {Socials.map((social) => (
             <Image
               src={social.src}
               alt={social.name}
@@ -46,7 +48,7 @@ const Navbar = () => {
               width={24}
               height={24}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
